@@ -1,0 +1,27 @@
+# World Configuration:
+# Number of Iterations must be > 0.
+# World Dimension must be > 0 (both coordinates).
+# Beauce Dimension must be >= 0 (both coordinates). (=0 mean no Beauce).
+# Beauce Up-Left Corner position must be > 0 (both coordinates), if there is a Beauce.
+# Energy Gain must be >= 0.
+# Reproduction Threshold must be > 2.
+
+
+Number of Iterations: 2
+World Dimension: 10 | 10
+Beauce Dimension: 2 | 2
+Beauce Up-Left Corner position: 2 | 2
+Energy Gain: 10
+Reproduction Threshold: 20
+
+# Animal Configuration
+# x_coordinate | y_coordinate | initial direction | initial energy | chromosome
+# x and y must be >= 0.
+# Direction must be between 0 and 7 (both included).
+# Energy must be > 0.
+# each gene of the chromosome must be >= 1.
+
+0 | 0 | 0 | 70 | 5 5 5 5 5 5 5 5
+1 | 0 | 0 | 70 | 1 2 3 5 12 5 2 5
+2 | 2 | 0 | 70 | 6 5 4 3 5 5 5 5
+
